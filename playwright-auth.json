@@ -1,0 +1,186 @@
+{
+  "cookies": [
+    {
+      "name": "KEYCLOAK_LOCALE",
+      "value": "en",
+      "domain": "iam.test.unifiedpost.com",
+      "path": "/auth/realms/test-btx-sso/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "AUTH_SESSION_ID_LEGACY",
+      "value": "394f872d-697a-44fb-80ee-5cbad82e3abb.btxidp-apps-keycloak-5b64f48dc9-q6clg-59853",
+      "domain": "iam.test.unifiedpost.com",
+      "path": "/auth/realms/test-btx-sso/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "AUTH_SESSION_ID",
+      "value": "394f872d-697a-44fb-80ee-5cbad82e3abb.btxidp-apps-keycloak-5b64f48dc9-q6clg-59853",
+      "domain": "iam.test.unifiedpost.com",
+      "path": "/auth/realms/test-btx-sso/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "KEYCLOAK_SESSION",
+      "value": "test-btx-sso/c9456549-7f79-4155-90df-a0be166c3627/394f872d-697a-44fb-80ee-5cbad82e3abb",
+      "domain": "iam.test.unifiedpost.com",
+      "path": "/auth/realms/test-btx-sso/",
+      "expires": 1754481180.589505,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "KEYCLOAK_SESSION_LEGACY",
+      "value": "test-btx-sso/c9456549-7f79-4155-90df-a0be166c3627/394f872d-697a-44fb-80ee-5cbad82e3abb",
+      "domain": "iam.test.unifiedpost.com",
+      "path": "/auth/realms/test-btx-sso/",
+      "expires": 1754481180.589722,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "KEYCLOAK_IDENTITY",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI3M2JkZDY5MC00NWY2LTRhMTktODJjOC03NTQwNWJkMGNmOWIifQ.eyJleHAiOjE3NTQ0ODExODAsImlhdCI6MTc1NDQ0NTE4MCwianRpIjoiYmQ5MzM2ODMtZmY3My00OGY2LTg3ZGUtMjQ4ZWJmN2ZmYTk1IiwiaXNzIjoiaHR0cHM6Ly9pYW0udGVzdC51bmlmaWVkcG9zdC5jb20vYXV0aC9yZWFsbXMvdGVzdC1idHgtc3NvIiwic3ViIjoiYzk0NTY1NDktN2Y3OS00MTU1LTkwZGYtYTBiZTE2NmMzNjI3IiwidHlwIjoiU2VyaWFsaXplZC1JRCIsInNlc3Npb25fc3RhdGUiOiIzOTRmODcyZC02OTdhLTQ0ZmItODBlZS01Y2JhZDgyZTNhYmIiLCJzaWQiOiIzOTRmODcyZC02OTdhLTQ0ZmItODBlZS01Y2JhZDgyZTNhYmIiLCJzdGF0ZV9jaGVja2VyIjoiNXhoMERqZm1CczdnWjRZYUxramZkcEh4bkpzTkVNVTFoM0tTS0N5ZTltcyJ9.ggRlX2WdU8ekk7-Bnc45O7TSKWGYvRsLN2RqouzEYMU",
+      "domain": "iam.test.unifiedpost.com",
+      "path": "/auth/realms/test-btx-sso/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "KEYCLOAK_IDENTITY_LEGACY",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI3M2JkZDY5MC00NWY2LTRhMTktODJjOC03NTQwNWJkMGNmOWIifQ.eyJleHAiOjE3NTQ0ODExODAsImlhdCI6MTc1NDQ0NTE4MCwianRpIjoiYmQ5MzM2ODMtZmY3My00OGY2LTg3ZGUtMjQ4ZWJmN2ZmYTk1IiwiaXNzIjoiaHR0cHM6Ly9pYW0udGVzdC51bmlmaWVkcG9zdC5jb20vYXV0aC9yZWFsbXMvdGVzdC1idHgtc3NvIiwic3ViIjoiYzk0NTY1NDktN2Y3OS00MTU1LTkwZGYtYTBiZTE2NmMzNjI3IiwidHlwIjoiU2VyaWFsaXplZC1JRCIsInNlc3Npb25fc3RhdGUiOiIzOTRmODcyZC02OTdhLTQ0ZmItODBlZS01Y2JhZDgyZTNhYmIiLCJzaWQiOiIzOTRmODcyZC02OTdhLTQ0ZmItODBlZS01Y2JhZDgyZTNhYmIiLCJzdGF0ZV9jaGVja2VyIjoiNXhoMERqZm1CczdnWjRZYUxramZkcEh4bkpzTkVNVTFoM0tTS0N5ZTltcyJ9.ggRlX2WdU8ekk7-Bnc45O7TSKWGYvRsLN2RqouzEYMU",
+      "domain": "iam.test.unifiedpost.com",
+      "path": "/auth/realms/test-btx-sso/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "KC_SESSION_ID",
+      "value": "\"e6167420811c4146\"",
+      "domain": "iam.test.unifiedpost.com",
+      "path": "/auth",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "org.springframework.web.servlet.i18n.CookieLocaleResolver.LOCALE",
+      "value": "en-US",
+      "domain": "idp.test.myid-idp.unifiedpost.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "intercom-device-id-pdtn96r1",
+      "value": "e9e6475e-223f-4513-a510-c57376487269",
+      "domain": ".banqup.com",
+      "path": "/",
+      "expires": 1777775195,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SESSION",
+      "value": "MGJhNzQwN2QtYzhjOC00NmIwLWE5NzctNjJlNjNjYTFkNGIx",
+      "domain": "idp.test.myid-idp.unifiedpost.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "token",
+      "value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTdDFaeWkwYUdRcnRFbVdRY1hUYmszQ0JSem9IZjVTVTN2Q0FoeGJuNWpRIn0.eyJleHAiOjE3NTQ0NDU0ODIsImlhdCI6MTc1NDQ0NTE4MiwiYXV0aF90aW1lIjoxNzU0NDQ1MTMwLCJqdGkiOiI3NDQwOGUzOS05YTc1LTQ1NDctYWM1Zi1lMGUxN2FjN2Y1ZjciLCJpc3MiOiJodHRwczovL2lhbS50ZXN0LnVuaWZpZWRwb3N0LmNvbS9hdXRoL3JlYWxtcy90ZXN0LWJ0eC1zc28iLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiYzk0NTY1NDktN2Y3OS00MTU1LTkwZGYtYTBiZTE2NmMzNjI3IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiZ2NwZXVfYXBpZ2VlX2lkZW50aXR5LWZhY2FkZSIsInNlc3Npb25fc3RhdGUiOiIzOTRmODcyZC02OTdhLTQ0ZmItODBlZS01Y2JhZDgyZTNhYmIiLCJhbGxvd2VkLW9yaWdpbnMiOlsiaHR0cHM6Ly9hcHAudGVzdC5idHguZXUuYmFucXVwLmNvbSIsImh0dHBzOi8vb2F1dGgucHN0bW4uaW8iLCJodHRwczovL2FwcC50ZXN0LmJ0eC5iYW5xdXAuY29tIiwiaHR0cHM6Ly9hcGkudGVzdC5idHguZXUuYmFucXVwLmNvbSIsImh0dHBzOi8vc3RvcmUudGVzdC5idHguYmFucXVwLmNvbSJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiVVNFUl9ERUZJTklUSU9OX0tFWV91c2VyLW1pbiIsIm9mZmxpbmVfYWNjZXNzIiwiZGVmYXVsdC1yb2xlcy10ZXN0LWJ0eC1zc28iLCJ1bWFfYXV0aG9yaXphdGlvbiIsIkdST1VQX2Zsb3dhYmxlVXNlciJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgdXA6c3NvOmFwcCB1cDpzc286aWQ6bXlpZCB1cDpzc286aWQgdXA6c3NvOmlkOmNvbXB0ZXhwZXJ0Iiwic2lkIjoiMzk0Zjg3MmQtNjk3YS00NGZiLTgwZWUtNWNiYWQ4MmUzYWJiIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsInJvbGVzIjpbIlVTRVJfREVGSU5JVElPTl9LRVlfdXNlci1taW4iLCJvZmZsaW5lX2FjY2VzcyIsImRlZmF1bHQtcm9sZXMtdGVzdC1idHgtc3NvIiwidW1hX2F1dGhvcml6YXRpb24iLCJHUk9VUF9mbG93YWJsZVVzZXIiXSwibmFtZSI6IkFuZHLDqWEgVGhvbWFzIiwidXAiOnsic3NvIjp7ImFjYyI6eyJhY3IiOiIxMDAiLCJpZHAiOiJteWlkIiwidXAtcHJvZHVjdCI6ImJ0eHZuIn0sImlkIjp7ImJhbnF1cGlkIjp7InN1YiI6IjI5MDBlMzg5LTEwODQtNDBmZC1hM2EzLTAxMjFjMTk4MTlmMyJ9fX19LCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJsaWVubnRoN0B1bmlmaWVkcG9zdC5jb20iLCJnaXZlbl9uYW1lIjoiQW5kcsOpYSIsImxvY2FsZSI6ImVuIiwiZmFtaWx5X25hbWUiOiJUaG9tYXMiLCJlbWFpbCI6ImxpZW5udGg3QHVuaWZpZWRwb3N0LmNvbSJ9.Yi5wKx4dMsi2aFiKyVA9nqTAcOPBQ6gQ9fSUXqgJrcYXMkpOb3pQz0ve_Jh61a8ivgRCaEZRpbnRfdEQBRKpnpqTZD_8LT-FwFrukv1vmeCGqzQLN1oecYP8_yS6rRi__nZsflCkDqHflJVvbZD0zd7706-g7Oq53C0dLQMb4adT42pdP1wiBU8kc8L5Liz3vNjrNVJUgxV4cz_vTAZxGkJRNelhOpUJJlHzU2AohxbVqCq7K8aKctBJuCEkkqlNIqACNqU_kw0n2Bf7GK2F-0H9SESe-rlPYG4Ntcq5_JkUfH4WzT_nx2jez8rawOECHIvOllNOuUSkt95yXKQrlw",
+      "domain": "app.test.btx.banqup.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "idToken",
+      "value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTdDFaeWkwYUdRcnRFbVdRY1hUYmszQ0JSem9IZjVTVTN2Q0FoeGJuNWpRIn0.eyJleHAiOjE3NTQ0NDU0ODIsImlhdCI6MTc1NDQ0NTE4MiwiYXV0aF90aW1lIjoxNzU0NDQ1MTMwLCJqdGkiOiJlZTBlY2Y0MC1jYjdiLTQ0ZTYtOWU2Mi0zNmJkZmE1YjVlZDUiLCJpc3MiOiJodHRwczovL2lhbS50ZXN0LnVuaWZpZWRwb3N0LmNvbS9hdXRoL3JlYWxtcy90ZXN0LWJ0eC1zc28iLCJhdWQiOiJnY3BldV9hcGlnZWVfaWRlbnRpdHktZmFjYWRlIiwic3ViIjoiYzk0NTY1NDktN2Y3OS00MTU1LTkwZGYtYTBiZTE2NmMzNjI3IiwidHlwIjoiSUQiLCJhenAiOiJnY3BldV9hcGlnZWVfaWRlbnRpdHktZmFjYWRlIiwic2Vzc2lvbl9zdGF0ZSI6IjM5NGY4NzJkLTY5N2EtNDRmYi04MGVlLTVjYmFkODJlM2FiYiIsImF0X2hhc2giOiJfU2hSZlRrclJ3alRqY0NPN0MySkpnIiwic2lkIjoiMzk0Zjg3MmQtNjk3YS00NGZiLTgwZWUtNWNiYWQ4MmUzYWJiIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsInJvbGVzIjpbIlVTRVJfREVGSU5JVElPTl9LRVlfdXNlci1taW4iLCJvZmZsaW5lX2FjY2VzcyIsImRlZmF1bHQtcm9sZXMtdGVzdC1idHgtc3NvIiwidW1hX2F1dGhvcml6YXRpb24iLCJHUk9VUF9mbG93YWJsZVVzZXIiXSwibmFtZSI6IkFuZHLDqWEgVGhvbWFzIiwidXAiOnsic3NvIjp7ImlkIjp7Im15aWQiOnsiaWRfZGF0YV92YWxpZGF0ZWQiOiJ0cnVlIiwic3ViIjoiMjkwMGUzODktMTA4NC00MGZkLWEzYTMtMDEyMWMxOTgxOWYzIiwiZG9jdW1lbnRfZXhwaXJ5X2RhdGUiOiIyMDMxLTA1LTI4IiwiZG9jdW1lbnRfbnVtYmVyIjoiNjIxNjYzNTIwIiwiYmlydGhkYXRlIjoiMTk2OS0wNy0yNyIsImRhdGVfdF9vX3NfYWNjZXB0ZWQiOiIyMDI1LTA2LTIzIDA3OjA0OjA4IiwibmF0aW9uYWxpdHkiOiJCRSIsImRvY3VtZW50X2lzc3VpbmdfY291bnRyeSI6IkdCIiwiZW5yb2xsbWVudF90eXBlIjoiVkVSSUZJRURfSURFTlRJVFkiLCJnaXZlbl9uYW1lIjoiQW5kcsOpYSIsImZhbWlseV9uYW1lIjoiVGhvbWFzIiwiZG9jdW1lbnRfdHlwZSI6IlBBU1NQT1JUIn19fX0sInByZWZlcnJlZF91c2VybmFtZSI6ImxpZW5udGg3QHVuaWZpZWRwb3N0LmNvbSIsImdpdmVuX25hbWUiOiJBbmRyw6lhIiwibG9jYWxlIjoiZW4iLCJmYW1pbHlfbmFtZSI6IlRob21hcyIsImVtYWlsIjoibGllbm50aDdAdW5pZmllZHBvc3QuY29tIn0.XkR5Ps9yZWZ2bHq-GWUrJaZw6XKyY0J7Pu7aZUgZ-U9pSag_EhnM55Q6zB67gv5zTZjIYS6p5a1mOBX2PozG0nIuTbzBYr7tE-5xBo8Its8ala2Gx3JUejw_M5Pkq4c904l_lz9Pzpd_TVhygnAci0L8c-cV0E0qmwv50ugvL9ihdjmTzHPttqzAWILMJrEPpQGC0wvNVu21eLJ_GW8yoWj7KHLhxFE7GmIdm1IGjcsW8v7ogKc4TDBvJQNxDdrPdN5Q6kMJJbw-Z8lVTLACCUGv6d_5D9htfGBlnkukQct0J2EE2tf7aQFgLor9MduHsENFrMD1_zXAB5eapCKCjg",
+      "domain": "app.test.btx.banqup.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "refreshToken",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI3M2JkZDY5MC00NWY2LTRhMTktODJjOC03NTQwNWJkMGNmOWIifQ.eyJleHAiOjE3NTQ0NDY5ODIsImlhdCI6MTc1NDQ0NTE4MiwianRpIjoiMzNmZjk4YWEtZWE3Mi00MWFkLWE3ZWMtNDk1ZGY5ZWUzYTNjIiwiaXNzIjoiaHR0cHM6Ly9pYW0udGVzdC51bmlmaWVkcG9zdC5jb20vYXV0aC9yZWFsbXMvdGVzdC1idHgtc3NvIiwiYXVkIjoiaHR0cHM6Ly9pYW0udGVzdC51bmlmaWVkcG9zdC5jb20vYXV0aC9yZWFsbXMvdGVzdC1idHgtc3NvIiwic3ViIjoiYzk0NTY1NDktN2Y3OS00MTU1LTkwZGYtYTBiZTE2NmMzNjI3IiwidHlwIjoiUmVmcmVzaCIsImF6cCI6ImdjcGV1X2FwaWdlZV9pZGVudGl0eS1mYWNhZGUiLCJzZXNzaW9uX3N0YXRlIjoiMzk0Zjg3MmQtNjk3YS00NGZiLTgwZWUtNWNiYWQ4MmUzYWJiIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCB1cDpzc286YXBwIHVwOnNzbzppZDpteWlkIHVwOnNzbzppZCB1cDpzc286aWQ6Y29tcHRleHBlcnQiLCJzaWQiOiIzOTRmODcyZC02OTdhLTQ0ZmItODBlZS01Y2JhZDgyZTNhYmIifQ.40YIEfORTnX2dhcHkFceRpFiIhW0oy5LwuDAdF1zrzQ",
+      "domain": "app.test.btx.banqup.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "intercom-session-pdtn96r1",
+      "value": "WndqdjVDM0ZpN1VBbG9HZXFENXkzQlVoSnU2V01lZTFxNDdsZjNab25Vb2tlWWpLcmlaY2JXNFYweEJJSU1WRDN2NlhmK3FJaFdISGxhemFYQU4vSFAvS28zeXpWYUlobDlNRFNMeFVmVGM9LS1PTjBJU3VUR1diNGZ6aGdncjI1RDFRPT0=--fea54fd20765ecb6f8ea770039c74b59a3d92fdf",
+      "domain": ".banqup.com",
+      "path": "/",
+      "expires": 1755049995,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://app.test.btx.banqup.com",
+      "localStorage": [
+        {
+          "name": "uploading-file-store",
+          "value": "{\"state\":{\"uploadingFiles\":[]},\"version\":0}"
+        },
+        {
+          "name": "btx-platform-store",
+          "value": "{\"state\":{\"activeApp\":{\"name\":\"invoices\",\"url\":\"/purchase-invoices\"},\"documentCreator\":{\"isExpandedTemplate\":true},\"generatedSessionId\":\"277018d3-1ca3-488b-9770-3c8bcf36c14a\",\"network\":{\"isShowEmptyConnectionWarning\":true}},\"version\":0}"
+        },
+        {
+          "name": "intercom.intercom-state-pdtn96r1",
+          "value": "{\"app\":{\"openConfig\":{\"layout\":\"default\",\"unifiedStyling\":true,\"openTo\":\"home\",\"spaces\":[{\"type\":\"home\",\"label\":\"Home\",\"navigationLabel\":\"Home\",\"badge\":null},{\"type\":\"messages\",\"label\":\"Messages\",\"navigationLabel\":\"Messages\",\"badge\":null},{\"type\":\"news\",\"label\":\"News\",\"navigationLabel\":\"News\",\"badge\":null},{\"type\":\"tasks\",\"label\":\"Tasks\",\"navigationLabel\":\"Tasks\",\"badge\":null},{\"type\":\"tickets\",\"label\":\"Tickets\",\"navigationLabel\":\"Tickets\",\"badge\":null}],\"userHasReceivedChecklists\":true,\"userHasLiveNewsfeed\":false,\"userHasTickets\":false},\"selfServeSuggestionsMatch\":false,\"name\":\"Banqup [TEST]\",\"features\":{\"anonymousInboundMessages\":true,\"googleAnalytics\":false,\"hubspotInstalled\":false,\"inboundMessages\":true,\"marketoEnrichmentInstalled\":false,\"googleAnalytics4Integration\":true},\"inboundConversationsDisabled\":false,\"isDeveloperWorkspace\":false,\"customGoogleAnalyticsTrackerId\":null},\"launcher\":{\"isLauncherEnabled\":true},\"launcherDiscoveryMode\":{\"hasDiscoveredLauncher\":true},\"launcherSettings\":{\"alignment\":\"right\",\"color\":\"#4238CA\",\"colorDark\":\"#9086ff\",\"hasRequiredFeatures\":true,\"horizontalPadding\":20,\"instantBootEnabled\":true,\"launcherLogoUrl\":\"https://downloads.intercomcdn.eu/i/o/11553/7355ca865ea0f360b94e5595/7e167324676722dd324f2d05298eefbd.png\",\"launcherLogoDarkUrl\":null,\"secondaryColor\":\"#4238CA\",\"secondaryColorDark\":\"#4238CA\",\"showLauncher\":true,\"themeMode\":\"light\",\"updatedAt\":1754420424,\"verticalPadding\":20,\"isLoading\":false},\"user\":{\"role\":\"user\",\"locale\":\"en\",\"hasConversations\":false},\"message\":{},\"conversations\":{\"byId\":{}},\"openOnBoot\":{\"type\":\"OPEN_CHECKLIST_ON_BOOT\",\"metadata\":{\"checklistProgressId\":\"16029\"},\"lastOpenAtTimestamp\":1754445290577},\"operator\":{\"lastComposerEvent\":0},\"router\":{\"isInitialized\":true,\"navigationQueue\":[],\"action\":\"REPLACE\",\"location\":{\"pathname\":\"/tasks/checklists/16029\",\"search\":\"\",\"hash\":\"\",\"state\":null,\"key\":\"thkq8gtb\"}}}"
+        }
+      ]
+    },
+    {
+      "origin": "https://idp.test.myid-idp.unifiedpost.com",
+      "localStorage": [
+        {
+          "name": "pusherTransportTLS",
+          "value": "{\"timestamp\":1754445098773,\"transport\":\"ws\",\"latency\":820}"
+        },
+        {
+          "name": "qrSessionId",
+          "value": "0Vj7nIPcRo7LrWbEp81kDVwWAI5NAiAp"
+        }
+      ]
+    }
+  ]
+}

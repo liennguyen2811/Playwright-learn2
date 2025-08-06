@@ -1,0 +1,46 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start MCP Server",
+      "type": "shell",
+      "command": "npm",
+      "args": [
+        "run",
+        "mcp"
+      ],
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      }
+    },
+    {
+      "label": "Run Playwright Tests",
+      "type": "shell",
+      "command": "npx",
+      "args": [
+        "playwright",
+        "test"
+      ],
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Install Playwright",
+      "type": "shell",
+      "command": "npx",
+      "args": [
+        "playwright",
+        "install"
+      ],
+      "group": "build"
+    }
+  ]
+}

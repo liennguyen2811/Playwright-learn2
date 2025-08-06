@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest",
+        "--port",
+        "3000"
+      ]
+    }
+  },
+  "mcp": {
+    "enabled": true,
+    "defaultServer": "playwright"
+  }
+}
