@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 test('intercept Intercom API and log response', async ({ page }) => {
   // --- Bước 1: Thiết lập Network Interception cho API cụ thể ---
-  const INTERCOM_API_URL = 'https://api-iam.eu.intercom.io/messenger/web/checklists/list';
+  const INTERCOM_API_URL = '';
   let apiResponseData: any; // Biến để lưu trữ dữ liệu phản hồi
 
   // Sử dụng Promise.all để chờ cả page.goto và response của API
@@ -12,7 +12,7 @@ test('intercept Intercom API and log response', async ({ page }) => {
       response.url().includes(INTERCOM_API_URL) && response.status() === 200
     ),
     // Điều hướng đến trang web
-    page.goto('https://app.test.btx.banqup.com/home')
+    page.goto('')
   ]);
 
   // Lấy dữ liệu JSON từ phản hồi API

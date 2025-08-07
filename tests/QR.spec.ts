@@ -3,7 +3,7 @@ import { test as setup, expect } from '@playwright/test';
 const fs = require('fs');
 
 setup('login via QR and save auth state', async ({ page }) => {
-  await page.goto('https://app.test.btx.banqup.com/home');
+  await page.goto('');
   // Tạm dừng để bạn quét QR code và đăng nhập thủ công
   await page.pause();
   // Sau khi đăng nhập, lưu trạng thái vào file
