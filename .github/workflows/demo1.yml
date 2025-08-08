@@ -25,6 +25,6 @@ jobs:
       - name: Install Playwright browsers
         run: npx playwright install
 
-      - name: Run tests
-        run: npx playwright test --headed=false
+      - name: Run tests (headed mode)
+        run: xvfb-run npx playwright test --headed
         
