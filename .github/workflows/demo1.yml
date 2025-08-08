@@ -4,10 +4,6 @@ on:
   push:
     branches:
       - main
-    # Optional: chỉ chạy khi có thay đổi trong thư mục cụ thể
-    # paths:
-    #   - 'src/**'
-    #   - 'tests/**'
 
 jobs:
   build-and-test:
@@ -33,5 +29,24 @@ jobs:
       - name: Install Playwright browsers
         run: npx playwright install
 
-      - name: Run tests (headed mode)
-        run: xvfb-run npx playwright test --headed
+      - name: Run tests and generate HTML report
+        run: xvfb-run npx playwright test --headed --reporter=html
+
+      - name: Send email with test report
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 587
+          username: liennguyen2811@gmail.com
+          password: ${{ secrets.GMAIL_APP_PASSWORD }}
+          subject: Playwright Test Report
+          to: liennguyen2811@gmail.com
+          from: liennguyen2811@gmail.com
+          body: |
+            Hello Lien,
+
+            Please find attached the latest Playwright test report.
+
+            Regards,
+            CI Pipeline
+          attachments: playwright-report/index.html
