@@ -1,10 +1,13 @@
-
 name: CI Pipeline
 
 on:
   push:
     branches:
-      - main  # hoặc nhánh bạn muốn theo dõi
+      - main
+    # Optional: chỉ chạy khi có thay đổi trong thư mục cụ thể
+    # paths:
+    #   - 'src/**'
+    #   - 'tests/**'
 
 jobs:
   build-and-test:
@@ -13,6 +16,11 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+
+      - name: Show commit info
+        run: |
+          echo "Commit message: ${{ github.event.head_commit.message }}"
+          echo "Commit by: ${{ github.event.head_commit.author.name }}"
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
@@ -27,4 +35,3 @@ jobs:
 
       - name: Run tests (headed mode)
         run: xvfb-run npx playwright test --headed
-        
