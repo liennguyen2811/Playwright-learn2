@@ -1,8 +1,24 @@
-name: hello-world
-on: push
+name: CI Pipeline
+
+on:
+  push:
+    branches:
+      - main  # hoặc nhánh bạn muốn theo dõi
+
 jobs:
-  my-job:
+  build-and-test:
     runs-on: ubuntu-latest
+
     steps:
-      - name: my-step
-        run: echo "Hello World!"
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'  # hoặc phiên bản bạn đang dùng
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run tests
+        run: npm test  # hoặc lệnh chạy test của bạn, ví dụ: npx playwright test
