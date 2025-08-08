@@ -32,7 +32,8 @@ jobs:
       - name: Run tests and generate HTML report
         run: xvfb-run npx playwright test --headed --reporter=html
 
-      - name: Send email with test report
+      - name: Send email with test report      
+        if: always()
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: smtp.gmail.com
